@@ -42,4 +42,11 @@ ol {
 }
 #pink{
   color:pink;
+  border:5px solid pink;
+  padding:20px;
+  margin:20px;
+  display:block;
+}
+h2{
+  text-decoration:underline;
 }
