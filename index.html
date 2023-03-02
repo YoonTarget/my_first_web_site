@@ -7,6 +7,17 @@
 </head>
 <body>
   <h1><a id="pink" href="index.html">이채린 공주 선생님</a></h1>
+  <input id="Night_Day" type="button" value="Night" onclick="
+  if(document.querySelector('#Night_Day').value==='Night'){
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('#Night_Day').value='Day';
+  } else{
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';
+    document.querySelector('#Night_Day').value='Night';
+  }
+  ">
   <div id="grid">
   <ol>
     <li><a href="1.html">호떡쓰</a></li>

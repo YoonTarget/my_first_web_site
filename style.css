@@ -2,7 +2,7 @@ body {
 margin:0;
 }
 a {
-  color:black;
+  color:pink;
   text-decoration:none;
 }
 h1 {
@@ -39,13 +39,6 @@ ol {
   h1 {
     border-bottom:none;
   }
-}
-#pink{
-  color:pink;
-  border:5px solid pink;
-  padding:20px;
-  margin:20px;
-  display:block;
 }
 h2{
   text-decoration:underline;
