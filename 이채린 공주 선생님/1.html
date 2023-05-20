@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <title>호떡쓰</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">이채린 공주 선생님</a></h1>
+  <input type="button" value="Night" onclick="
+  var target = document.querySelector('body');
+  if(this.value==='Night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='Day';
+  } else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='Night';
+  }
+  ">
+  <div id="grid">
+    <ul>
+    <script>
+    var coworkers = ['<a href="1.html">호떡쓰</a>','<a href="2.html">플롭</a>'
+    ,'<a href="3.html">거북목</a>','<a href="4.html">도촬</a>','<a href="5.html">서순라길</a>'
+    ,'<a href="6.html">지하철에</a>','<a href="7.html">배라</a>']
+      var i = 0;
+      while(i < coworkers.length){
+        document.write('<li>'+coworkers[i]+'</li>')
+        i = i + 1;
+      }
+    </script>
+    </ul>
+    <div id="article">
+      <h2>호떡 먹는 제 모습을 이채린 공주 선생님이 찍었어요.</h2>
+      <p><img src="호떡쓰.jpg" width="50%"><br>
+        정말 못났네요,,<br>
+        이런 모습을 찍다니,,<br><br>
+        실망입니다. 이채린 공주 선생님.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

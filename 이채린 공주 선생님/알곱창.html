@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>알곱창</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">이채린 공주 선생님</a></h1>
+  <input type="button" value="Night" onclick="
+  var target = document.querySelector('body');
+  if(this.value==='Night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='Day';
+  } else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='Night';
+  }
+  ">
+  <div id="grid">
+    <ul>
+    <script>
+    var coworkers = ['<a href="숟가락.html">숟가락</a>',
+  '<a href="알곱창.html">알곱창</a>',
+'<a href="콜라.html">콜라</a>',
+'<a href="피자.html">피자</a>']
+      var i = 0;
+      while(i < coworkers.length){
+        document.write('<li>'+coworkers[i]+'</li>')
+        i = i + 1;
+      }
+    </script>
+    </ul>
+    <div id="article">
+      <h2>알곱창이닷!!</h2>
+      <p><img src="알곱창.jpg" width="50%"><br>
+        야채곱창과의 최종면접에서 저희의 선택을 받은 알곱창.<br>
+        맛있게 먹었더랬죠.<br>
+        먹어도 먹어도 줄지 않는 알곱창,,<br>
+        결국, 저희도 패배했답니다,,ㅠㅠ
+      </p>
+    </div>
+  </div>
+</body>
+</html>

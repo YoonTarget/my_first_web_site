@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <title>숟가락</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">이채린 공주 선생님</a></h1>
+  <input type="button" value="Night" onclick="
+  var target = document.querySelector('body');
+  if(this.value==='Night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='Day';
+  } else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='Night';
+  }
+  ">
+  <div id="grid">
+    <ul>
+    <script>
+    var coworkers = ['<a href="숟가락.html">숟가락</a>',
+  '<a href="알곱창.html">알곱창</a>',
+'<a href="콜라.html">콜라</a>',
+'<a href="피자.html">피자</a>']
+      var i = 0;
+      while(i < coworkers.length){
+        document.write('<li>'+coworkers[i]+'</li>')
+        i = i + 1;
+      }
+    </script>
+    </ul>
+    <div id="article">
+      <h2>숟가락에 비친 리니 너머로</h2>
+      <p><img src="숟가락.jpg" width="50%"><br>
+        제가 보이네요,,<br>
+        저는 코를 파고 있는 걸까요??<br><br>
+        뭔가에 열중인 건 확실하네요.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
